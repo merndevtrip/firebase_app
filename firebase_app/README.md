@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### To run the above app, follow the steps below:-
+
+Step 1: npm install, a node modules folder will be created..
+
+Step 2: Install the following packages as below:-
+
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install @react-router-dom
+
+npm install firebase
+
+npm install @react-oauth/google
+
+npm install react-firebase-hooks
+
+
+Once Done, npm start , the application will run in http://localhost:3000, if for reason the application did not start
+it would be advisable to change the firebaseConfig variables with that of yours, To create:-
+
+Step 1: Login or Sign Up both in Google Cloud and Firebase.
+
+Step 2:- Create a New Project.
+
+Step 3:- Go to Dashboard and for Oauth --> Go to API and Services and create credentianls..
+
+Step 4:- For Firebase(Database), create a new project, and from the Dashboard create a Firebase Database and Authentication.
+
+
+
